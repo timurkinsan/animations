@@ -1,0 +1,49 @@
+body {
+background-color: white;
+}
+main
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(159, 153, 206);
+    width: 250px;
+    height: 150px;  
+}
+.button {
+cursor: pointer;
+font-weight: bolder;
+background-color: blueviolet;
+border-color: blueviolet;
+border: 2px solid blueviolet;
+width: 100px;
+height: 40px;
+border-radius: 10px;
+color:white;
+transition: all 1s;
+}
+.button:hover {
+    background-color: white; 
+    color:blueviolet;
+    transition: all 1s;
+}
+.button:hover + .agreement {
+    opacity:100%;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+.agreement {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+    font-weight: lighter;
+    color: dimgray;
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 2s;
+}
+

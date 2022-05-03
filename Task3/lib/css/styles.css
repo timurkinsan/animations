@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+main
+.equalaizer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;  
+    align-items:flex-end;
+    margin: auto;
+    margin-top: 100px;
+    height: 250px; 
+    background-color: rgb(179, 146, 146);
+}
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: black;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    transition: height 1s cubic-bezier(0, 1, 1, 1) 20ms, background-color 0.6s;
+}
+.button:hover {
+    height:100%;
+    background-color: red;
+}

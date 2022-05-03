@@ -1,0 +1,41 @@
+body {
+background-color: black;
+}
+main
+.white-square{
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    margin-top:9.45%;
+    margin-left: 35.35%;
+    background-color: white;
+    width: 105.8mm;
+    height: 105.7mm;
+   
+}
+
+.blue-square{
+    display:flex;
+    justify-content:space-between; 
+    align-items: center;
+   /* margin-top: 0%;
+    margin-left: 35.35%;*/
+    background-color: rgb(127, 162, 179);
+    width: 42mm;
+    height: 42mm;
+    transform: rotate();
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-180deg);
+    }
+}

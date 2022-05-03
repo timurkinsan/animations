@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(162, 142, 180);
+}
+main
+.clock-container {
+    position: relative;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    align-items:flex-end;
+    margin: auto;
+    margin-top: 100px; 
+    background-color: rgb(179, 146, 146);
+    background-image: url(../img/clock.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.clock-photo {
+    display: flex;
+}
+.arrow-seconds {
+    /* transform: translateX(-2px); */
+    position: absolute;
+    width: 4px;
+    height: 240px;
+    top: 47%;
+    left: 50%;
+    background-color: rgb(190, 29, 29);
+    animation: rotate 60s cubic-bezier(0,1,0.5,1) infinite;
+}
+.arrow-minutes {
+    position: absolute;
+    transform: translateX(-5px);
+    top: 17%;
+    left: 50%;
+    width: 10px;
+    height: 212px;
+    background-color: black;
+    /*animation: rotate 40s linear infinite;*/
+}
+.arrow-hours {
+    position: absolute;
+    transform: translateX(-10px);
+    top: 23%;
+    left: 50%;
+    width: 20px;
+    height: 170px;
+    background-color: black;
+    /*animation: rotate 1s linear infinite;*/
+}
+
+@keyframes rotate {
+0.000% { transform: rotate(180deg); transform-origin: top center; }
+1.667% { transform: rotate(186deg); transform-origin: top center; }
+3.333% { transform: rotate(192deg); transform-origin: top center; }
+5.000% { transform: rotate(198deg); transform-origin: top center; }
+6.667% { transform: rotate(204deg); transform-origin: top center; }
+8.333% { transform: rotate(210deg); transform-origin: top center; }
+10.000% { transform: rotate(216deg); transform-origin: top center; }
+11.667% { transform: rotate(222deg); transform-origin: top center; }
+13.333% { transform: rotate(228deg); transform-origin: top center; }
+15.000% { transform: rotate(234deg); transform-origin: top center; }
+16.667% { transform: rotate(240deg); transform-origin: top center; }
+18.333% { transform: rotate(246deg); transform-origin: top center; }
+20.000% { transform: rotate(252deg); transform-origin: top center; }
+21.667% { transform: rotate(258deg); transform-origin: top center; }
+23.333% { transform: rotate(264deg); transform-origin: top center; }
+25.000% { transform: rotate(270deg); transform-origin: top center; }
+26.667% { transform: rotate(276deg); transform-origin: top center; }
+28.333% { transform: rotate(282deg); transform-origin: top center; }
+30.000% { transform: rotate(288deg); transform-origin: top center; }
+31.667% { transform: rotate(294deg); transform-origin: top center; }
+33.333% { transform: rotate(300deg); transform-origin: top center; }
+35.000% { transform: rotate(306deg); transform-origin: top center; }
+36.667% { transform: rotate(312deg); transform-origin: top center; }
+38.333% { transform: rotate(318deg); transform-origin: top center; }
+40.000% { transform: rotate(324deg); transform-origin: top center; }
+41.667% { transform: rotate(330deg); transform-origin: top center; }
+43.333% { transform: rotate(336deg); transform-origin: top center; }
+45.000% { transform: rotate(342deg); transform-origin: top center; }
+46.667% { transform: rotate(348deg); transform-origin: top center; }
+48.333% { transform: rotate(354deg); transform-origin: top center; }
+50.000% { transform: rotate(360deg); transform-origin: top center; }
+51.667% { transform: rotate(366deg); transform-origin: top center; }
+53.333% { transform: rotate(372deg); transform-origin: top center; }
+55.000% { transform: rotate(378deg); transform-origin: top center; }
+56.667% { transform: rotate(384deg); transform-origin: top center; }
+58.333% { transform: rotate(390deg); transform-origin: top center; }
+60.000% { transform: rotate(396deg); transform-origin: top center; }
+61.667% { transform: rotate(402deg); transform-origin: top center; }
+63.333% { transform: rotate(408deg); transform-origin: top center; }
+65.000% { transform: rotate(414deg); transform-origin: top center; }
+66.667% { transform: rotate(420deg); transform-origin: top center; }
+68.333% { transform: rotate(426deg); transform-origin: top center; }
+70.000% { transform: rotate(432deg); transform-origin: top center; }
+71.667% { transform: rotate(438deg); transform-origin: top center; }
+73.333% { transform: rotate(444deg); transform-origin: top center; }
+75.000% { transform: rotate(450deg); transform-origin: top center; }
+76.667% { transform: rotate(456deg); transform-origin: top center; }
+78.333% { transform: rotate(462deg); transform-origin: top center; }
+80.000% { transform: rotate(468deg); transform-origin: top center; }
+81.667% { transform: rotate(474deg); transform-origin: top center; }
+83.333% { transform: rotate(480deg); transform-origin: top center; }
+85.000% { transform: rotate(486deg); transform-origin: top center; }
+86.667% { transform: rotate(492deg); transform-origin: top center; }
+88.333% { transform: rotate(498deg); transform-origin: top center; }
+90.000% { transform: rotate(504deg); transform-origin: top center; }
+91.667% { transform: rotate(510deg); transform-origin: top center; }
+93.333% { transform: rotate(516deg); transform-origin: top center; }
+95.000% { transform: rotate(522deg); transform-origin: top center; }
+96.667% { transform: rotate(528deg); transform-origin: top center; }
+98.333% { transform: rotate(534deg); transform-origin: top center; }
+100.000% { transform: rotate(540deg); transform-origin: top center; }
+}
+/*.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: black;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    transition: height 1s cubic-bezier(0, 1, 1, 1) 20ms, background-color 0.6s;
+}
+.button:hover {
+    height:100%;
+    background-color: red;
+}*/
